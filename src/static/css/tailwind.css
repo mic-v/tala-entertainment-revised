@@ -12,9 +12,14 @@ h3 {
   @apply text-2xl font-bold mb-3;
 }
 
+body {
+  @apply bg-gray-800;
+}
 /* Syntax Highlighting*/
 
+/*
 body :not(pre) > code[class*="language-"],
 body pre[class*="language-"] {
   @apply bg-gray-800;
 }
+*/
