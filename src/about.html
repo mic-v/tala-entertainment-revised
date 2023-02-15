@@ -1,0 +1,53 @@
+---
+layout: default
+title: Artists
+---
+
+<main>
+  <div class="h-auto border-b border-slate-700">
+    <section class="py-24 md:py-44 bg-cover">
+      <section class="container lg:w-[1000px]">
+        <div class="flex flex-col m-auto justify-center items-center gap-4 lg:-gap-4">
+          <h2 class="text-white self-center text-3xl font-bold uppercase pb-16">Who we Are</h2>
+          <div class="relative w-full self-end">
+            <div class="absolute bottom-10 bg-black w-full lg:w-4/5 text-white opacity-80 oveflow-auto p-12 text-justify flex-grow">
+              <span class="text-lg">We are Tala Entertainment. We provide the best events filled with great performances from a massive range of talents</span>
+            </div>
+            <img class="" src="/static/img/about-2.webp"/>
+          </div>
+          <div class="py-8"></div>
+          <div class="relative w-full self-end">
+            <div class="absolute bottom-10 right-0 bg-black text-white opacity-80 oveflow-auto p-12 text-justify flex-grow">
+              <span class="text-lg">We provide various services such as talent sponsorship, event organization, etc</span>
+            </div>
+            <img class="" src="/static/img/about-1.webp"/>
+          </div>
+          <div class="py-4"></div>
+          <h2 class="text-white self-center text-3xl font-bold uppercase pb-16">CONTACT US</h2>
+          <div class="relative w-full self-end">
+            <div class="bg-black text-white opacity-80 oveflow-auto p-12 text-center flex-grow">
+              <a href="mailto: talaentertainment@gmail.com">
+                <div class="text-indigo-500">
+                  <strong><h3>Send us an email!</h3></strong> 
+                </div>
+              </a>
+              {% if socials.links %}
+    
+              <ul class="pt-6 lg:pt-0 list-reset lg:flex flex-row justify-center md:items-center flex-1 items-center">
+                  {% for links in socials.links%}
+                      <li class="nav__item mr-3">
+                          <a @click="isOpen = false" class="" href="{{ item.url }}">
+                            <i class="{{ links.style }} text-2xl"></i>
+                          </a>
+                      </li>
+                  {% endfor %}
+              </ul>
+    
+              {% endif %}
+          </div>
+          <img class="" src="/static/img/about-3.webp"/>
+        </div>
+      </section>
+    </section>
+  </div>
+</main>

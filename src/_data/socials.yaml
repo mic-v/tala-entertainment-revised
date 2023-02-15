@@ -1,8 +1,14 @@
 ---
 links:
-  - text: A
+  - text: Facebook
     url: "#"
-  - text: B
+    style: "bi bi-facebook transition duration-150 text-white hover:text-rose-500"
+  - text: Instagram
     url: "#"
-  - text: C
+    style: "bi bi-instagram transition duration-150 text-white hover:text-rose-500"
+  - text: Tiktok
     url: "#"
+    style: "bi bi-tiktok transition duration-150 text-white hover:text-rose-500"
+  - text: Twitter
+    url: "#"
+    style: "bi bi-twitter transition duration-150 text-white hover:text-rose-500"

@@ -3,8 +3,6 @@ items:
   - text: Events
     url: "/events"
   - text: Artists
-    url: "../events.html"
+    url: "/artists"
   - text: About Us
-    url: "../../events.html"
-  - text: Blog
-    url: "/blog"
+    url: "/about"
