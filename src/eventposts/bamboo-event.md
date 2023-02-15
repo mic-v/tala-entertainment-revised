@@ -1,6 +1,6 @@
 ---
 title: Bamboo+Nobita+Mayonnaise
-date: 2021-06-01
+date: 2023-05-07T01:00:45.195Z
 artist: Bamboo, Nobita, Mayonnaise
 tags:
   - post
