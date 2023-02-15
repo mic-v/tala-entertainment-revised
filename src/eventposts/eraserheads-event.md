@@ -7,6 +7,6 @@ tags:
   - featured
 location: Toronto
 image: /static/img/eraserheadsposter.webp
-imageAlt: Music Event Poster of Bamboo
+imageAlt: Music Event Poster of Eraserheads
 url: https://www.facebook.com/watch/?v=1560518741112446
 ---
