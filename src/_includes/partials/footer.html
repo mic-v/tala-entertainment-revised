@@ -6,12 +6,19 @@
               <span>Copyright © Tala Entertainment 2023</span>
             </div>
             <div class="py-2"></div>
-            <div class="flex flex-row justify-center gap-4 ">
-              <i class="bi bi-facebook" style="font-size:1.5rem" alt="Facebook"></i>
-              <i class="bi bi-instagram" style="font-size:1.5rem" alt="Instagram"></i>
-              <i class="bi bi-tiktok" style="font-size:1.5rem" alt="Tiktok"></i>
-              <i class="bi bi-twitter" style="font-size:1.5rem" alt="Twitter"></i>
-            </div>
+            {% if socials.links %}
+
+            <ul class="pt-6 lg:pt-0 list-reset lg:flex flex-row justify-center flex-1 items-center">
+                {% for links in socials.links%}
+                    <li class="nav__item mr-3">
+                        <a @click="isOpen = false" class="" href="{{ links.url }}" target="_blank">
+                          <i class="{{ links.style }} text-2xl"></i>
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+
+        {% endif %}
           </div>
         </div>
       </div>

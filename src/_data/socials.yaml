@@ -1,13 +1,13 @@
 ---
 links:
   - text: Facebook
-    url: "#"
+    url: "https://www.facebook.com/talaentertainmentinc/"
     style: "bi bi-facebook transition duration-150 text-white hover:text-rose-500"
   - text: Instagram
-    url: "#"
+    url: "https://www.instagram.com/talaentertainment88/"
     style: "bi bi-instagram transition duration-150 text-white hover:text-rose-500"
   - text: Tiktok
-    url: "#"
+    url: "https://www.tiktok.com/@talaentertainment88"
     style: "bi bi-tiktok transition duration-150 text-white hover:text-rose-500"
   - text: Twitter
     url: "#"

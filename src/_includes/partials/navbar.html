@@ -33,7 +33,7 @@
                   <ul class="pt-6 lg:pt-0 list-reset lg:flex flex-row justify-center md:justify-end flex-1 items-center">
                       {% for links in socials.links%}
                           <li class="nav__item mr-3">
-                              <a @click="isOpen = false" class="" href="{{ item.url }}">
+                              <a @click="isOpen = false" class="" href="{{ links.url }}" target="_blank">
                                 <i class="{{ links.style }} text-2xl"></i>
                               </a>
                           </li>

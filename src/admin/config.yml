@@ -22,6 +22,7 @@ collections:
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Artist", name: "artist", widget: "string" }
       - { label: "Tags",  name: "tags", widget: "list", default: ["post"] }
-      - { label: "Location", name: "location", widget: "map" }
+      - { label: "Location", name: "location", widget: "string" }
       - { label: "Image", name: "image", widget: "image"}
       - { label: "Image caption", name: "imageAlt", widget: "string" }
+      - { label: "URL to Tickets", name: "url", widget: "string" }
