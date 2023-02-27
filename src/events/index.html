@@ -14,6 +14,13 @@ title: Events
                 {% include '../_includes/partials/event-snippet.html' %}
               {%- endfor -%}
           </ul>
+          <div class="py-6"></div>
+          <h2 class="text-white self-center text-3xl font-bold uppercase pb-16">Past events(s)</h2>
+          <ul class="flex flex-col overflow-y-auto">
+              {%- for post in collections.past -%}
+                {% include '../_includes/partials/past-event-snippet.html' %}
+              {%- endfor -%}
+          </ul>
         </div>
       </section>
     </section>
